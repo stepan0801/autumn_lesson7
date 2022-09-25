@@ -1,0 +1,353 @@
+@import "reset.css";
+/* =================шрифти===================== */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "Inter";
+	src: url("../fonts/Inter/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Inter";
+	src: url("../fonts/Inter/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Inter";
+	src: url("../fonts/Inter/Inter-Black.woff2") format("woff2"), url("../fonts/Inter-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body{font-family: "Lato";
+	font-style: normal;
+	font-size: 18px;
+}
+.header {
+	margin-bottom: 50px;
+}
+h1{
+	font-family: "Raleway";
+	font-weight: 900;
+	font-size: 40px;
+	max-width: 250px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 1px solid blue;
+	background-color: blue;
+	color: aquamarine;
+	text-align: center;
+	opacity: 0.9;
+}
+
+/* ==================стилі фігма================ */
+.figma{
+	margin-bottom: 30px;
+}
+.container{
+	max-width: 810px;
+	margin: 0 auto;
+}
+.top{
+	margin-top: 12px;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1E212C;
+	margin-bottom: 92px;
+}
+.glasses{
+	width: 100%;
+	margin-bottom: 60px;
+}
+.vulputate{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.50;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+.at-facilisi{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+	margin-bottom: 48px;
+}
+.at-facilisi p{
+	margin-bottom: 28px;
+}
+.at-facilisi p+p{
+	margin-bottom: 0;
+}
+.lorem{
+font-weight: 700;
+font-size: 20px;
+line-height: 1.5;
+color: #1E212C;
+padding-left: 58px;
+margin-bottom: 48px;
+}
+.mauris{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+	margin-bottom: 24px;
+}
+.list{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+   margin-bottom: 24px;
+}
+.list li{
+	padding-left: 32px;
+	margin-bottom: 4px;
+}
+.list li +li+li+li{
+	margin-bottom: 0;
+}
+.foot{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+}
+/* ==================стилі antytila================ */
+.antytila{
+	padding: 20px;
+	background: linear-gradient(90deg, rgba(62, 58, 180, 1) 50%, rgba(214, 253, 29, 1) 50%);
+}
+.tittle{
+	font-family: "Inter";
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.6;
+	max-width: 200px;
+	background: linear-gradient(90deg, rgba(87, 58, 255, 0.9304096638655462) 0%, rgba(11, 50, 49, 0.7875525210084033) 100%);
+	max-height: 150px;
+	overflow: auto;
+	padding: 10px;
+	margin: 0 0 25px 40px;
+	box-shadow: 2px 5px 3px 4px rgb(148, 74, 74);
+
+}
+.about{
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	max-width: 500px;
+	max-height: 500px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid black;
+	color: aquamarine;
+	background: url(../img/antytila_poltava.jpg) 0 0 / cover no-repeat;
+	margin-bottom: 50px;
+}
+.about h2{
+	text-align: center;
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+.competition{
+	font-size: 25px;
+	font-weight: 700;
+	max-width: 700px;
+	max-height: 300px;
+	margin: 0 15px 45px auto;
+	line-height: 1.3;
+	padding: 20px;
+	background: url(../img/antytila_another.jpg) 0 0 / 100% 100% no-repeat;
+	background-attachment: fixed;
+	overflow: scroll;
+	color: wheat;
+}
+.competition h3 {
+	background-color: purple;
+	display: inline-block;
+	opacity: 0.5;
+}
+.famous{
+	font-family: "Raleway";
+	font-size: 20px;
+   max-width: 1200px;
+   margin: 0 auto;
+	background-color: orange;
+	line-height: 1.2;
+	padding: 50px;
+	color: rebeccapurple;
+	margin-bottom: 35px;
+}
+.famous h3{
+	font-size: 28px;
+	margin-bottom: 15px;
+	color: blue;
+	text-shadow: 2px 3px 8px brown;
+}
+.famous p{
+	border: 1px solid black;
+	border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   display: inline-block;
+	overflow: hidden;
+	overflow: auto; 
+	background: url(../img/Antytila_BloorWestFestival2016.jpg) 50% 50% / contain ;
+}
+.cooperation{
+	font-family: "Inter";
+	font-weight: 900;
+	font-size: 20px;
+	border: 2px dashed green;
+	margin: 0 35px 20px 25px;
+	padding: 30px;
+	max-width: 400px;
+	line-height: 1.7;
+	color: aqua;
+	box-shadow: inset 10px 12px 6px 10px gold;
+	background:url(../img/antytila_poltava.jpg) center center / 200px 400px no-repeat, url(../img/antytila_best.jpg) 0 0 / 100% 100% no-repeat;
+}
+.cooperation h3{
+	color: purple;
+	border: 2px dotted red;
+	border-radius: 3px;
+	font-size: 25px;
+	text-align: center;
+} 
+.choose{
+	max-width: 1300px;
+	margin:  0 auto;
+	padding: 30px;
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 1.6;
+	text-shadow: 2px -5px 8px aqua;
+	color: wheat;
+	background: url(../img/antytila_sun.jpg) 0 0 / 50% 50%;
+	margin-bottom: 100px;
+}
+.choose h3{
+	color: green;
+	font-size: 25px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.choose p{
+	background-image:radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+	display: inline-block;
+	max-width: 120px;
+	max-height: 200px;
+	overflow: scroll;
+	padding: 5px;
+}
+.choose p+p{
+	background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+.plus{
+	font-family: "Raleway";
+	font-weight: 500;
+	font-size: 22px;
+	height: 700px;
+	width: 700px;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	padding: 100px;
+	line-height: 1.3;
+	box-shadow: 5px 10px 10px 18px goldenrod, -5px -10px 10px 18px blue;
+	background: url(../img/antytila_war.jpg) 0 0 / cover no-repeat;
+	color: aqua;
+}
+.plus h3{
+	text-align: center;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+.beautiful{
+	font-family: "Inter";
+	font-weight: 900;
+	font-size: 24px;
+	margin: 0 0 45px 50px;
+	padding: 20px;
+	max-width: 600px;
+	max-height: 400px;
+	line-height: 1.3;
+   border: 2px solid red;
+	background: rgba(128, 0, 128, 0.548) url(../img/antytila_another.jpg) center / 50% 50% no-repeat;
+	overflow: auto;
+	color: rgb(126, 75, 75);
+}
+.beautiful h3{
+	margin-bottom: 20px;
+	color: orangered;
+	text-align: right;
+	text-decoration: underline;
+}
+.beautiful h3+p+p{
+	text-shadow: 3px 2px 4px green;
+}
+.sun{
+	font-weight: 900;
+	font-size: 23px;
+	margin: 0 0 50px 250px;
+	max-width: 700px;
+	line-height: 1.3;
+	border: 2px dashed olive;
+	border-radius: 5px;
+	padding: 15px;
+	color: honeydew;
+	background: linear-gradient(90deg, rgba(89, 158, 48, 1) 0%, rgba(50, 19, 11, 0.7875525210084033) 100%);
+}
+.sun p{
+	padding: 10px;
+	font-size: 16px;
+	background: linear-gradient(90deg, rgba(158, 48, 106, 1) 0%, rgba(11, 16, 50, 1) 70%);
+	margin-bottom: 5px;
+} 
+.sun p+p+p+p+p+p{
+	margin-bottom: 0;
+}
+.hello{
+	font-family: "Raleway";
+	font-weight: 900;
+	font-size: 28px;
+	margin-left: 50px;
+	padding: 15px;
+	max-width: 800px;
+	max-height: 500px;
+	line-height: 1.6;
+	color: aquamarine;
+	overflow: auto;
+	background: url(../img/antytila_sun.jpg) 0 0 / cover no-repeat;
+}
+.hello h3{
+	margin: 10px;
+	font-size: 35px;
+	color: hotpink;
+	text-align: center;
+	text-decoration: overline;
+}
+.main{
+	margin-bottom: 30px;
+}
+ .link{font-family: "Raleway";
+	font-weight: 900;
+	font-size: 40px;
+	display: block;
+	max-width: 250px;
+	margin: 0 auto;
+	border: 1px solid red;
+	background-color: red;
+	color: aquamarine;
+	text-align: center;
+}
